@@ -1,0 +1,50 @@
+{
+  "mongoDB": {
+    "host": "mongodb+srv://parulpuri0125:Assignment2@cluster0.jev73on.mongodb.net/?retryWrites=true&w=majority",
+    "database": "MyDatabase",
+    "collections": {
+      "ColQueryOne": "EduCostStatQueryOne",
+      "ColQueryTwo": "EduCostStatQueryTwo",
+      "ColQueryThree": "EduCostStatQueryThree",
+      "ColQueryFour": "EduCostStatQueryFour",
+      "ColQueryFive": "EduCostStatQueryFive"
+    }
+  },
+ "RoutingKeys":{
+  "routingKey1":"queue1.one",
+  "routingKey2":"queue2.two",
+  "routingKey3":"queue3.three",
+  "routingKey4":"queue4.four",
+  "routingKey5":"queue5.five"
+ },
+  "EduCostStatQueryOne": {
+    "Year": "2021",
+    "State": "New York",
+    "Type": "Private",
+    "Length": "4-year"
+    
+ },
+  "EduCostStatQueryTwo": {
+    "Year": "2021",
+    "Type": "Private",
+    "Length": "4-year"
+   
+  },
+  "EduCostStatQueryThree": {
+    "Year": "2013",
+    "Type": "Private",
+    "Length": "4-year"
+
+  },
+  "EduCostStatQueryFour": {
+    "Range of PastYears": "1"
+    
+  },
+  "EduCostStatQueryFive": {
+    "Year": "2021",
+    "Type": "Private",
+    "Length": "4-year",
+    "_id": "West"
+    
+  }
+}
